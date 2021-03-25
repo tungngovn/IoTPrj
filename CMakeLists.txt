@@ -165,7 +165,7 @@ include_directories(
 # )
 
 catkin_install_python(PROGRAMS
-   scripts/listener.py scripts/talker.py
+   scripts/listener.py scripts/talker.py scripts/listener_IO.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
