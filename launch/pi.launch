@@ -5,7 +5,7 @@
 	<!-- Nodes -->
 	<node name="read_sensor_data" pkg="rosserial_python" type="serial_node.py" output="screen">
 
-		<param name="baud" value="$(arg baud)" type="bool"/>
+		<param name="baud" value="$(arg baud)" type="str"/>
 		<param name="port" value="$(arg port)" type="str"/>
 
 	</node>
